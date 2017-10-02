@@ -1,0 +1,18 @@
+exit
+exit
+start_test_server_in_background
+query("android.widget.ImageButton")
+query("android.widget.ImageButton")
+touch("* contentDescription:'Interstitial close button'")
+exit
+start_test_server_in_background
+element_exists("* contentDescription:'Interstitial close button'")
+touch("* contentDescription:'Interstitial close button'")
+query("*")
+element_exists("* id:'button2'")
+touch("* id:'button2'")
+query("*")
+element_exists("* id:'et_placa_letra'")
+touch("* id:ét_placa_letra'")
+exit
+exit

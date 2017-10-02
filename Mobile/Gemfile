@@ -1,0 +1,8 @@
+source "http://rubygems.org"
+
+gem "cucumber"
+gem "rspec"
+gem "calabash-cucumber", " 0.16.4"
+gem "calabash-android"
+gem 'pry'
+gem 'pry-nav'
